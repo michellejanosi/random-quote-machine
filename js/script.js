@@ -59,7 +59,7 @@ jQuery(function($) {
       "—Malcolm Gladwell",
       "—Martin Luther King Jr.",
       "—Jonathan Winters",
-      "Charles F. Kettering",
+      "—Charles F. Kettering",
       "—Albert Einstein",
       "—Robert Allen",
       "—Venus Williams",
@@ -90,7 +90,7 @@ jQuery(function($) {
       "—Bruce Lee",
       "—Henry David Thoreau",
       "—Zig Ziglar",
-      "A. A. Milne",
+      "—A. A. Milne",
       "—John C. Maxwell"
       ];
 
