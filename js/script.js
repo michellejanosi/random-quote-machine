@@ -47,7 +47,11 @@ jQuery(function($) {
       '"It’s not what you look at that matters, it’s what you see."',
       '"People often say that motivation doesn\'t last. Well, neither does bathing that\'s why we recommend it daily."',
       '"Always remember you are braver than you believe, stronger than you seem, and smarter than you think"',
-      '"Your dreams don\'t work unless you do."'
+      '"Your dreams don\'t work unless you do."',
+      '"Dream as if you’ll live forever, live as if you’ll die today."',
+      '"The people who are crazy enough to think they can change the world, are the ones who do."',
+      '"You must be the change you wish to see in the world."',
+      '"Don’t cry because it’s over, smile because it happened."'
       ];
 
       var authors = [
@@ -91,7 +95,11 @@ jQuery(function($) {
       "—Henry David Thoreau",
       "—Zig Ziglar",
       "—A. A. Milne",
-      "—John C. Maxwell"
+      "—John C. Maxwell",
+      "—James Dean",
+      "-Steve Jobs",
+      "-Gandhi",
+      "-Dr. Seuss"
       ];
 
       randNum = Math.floor(Math.random() * quotes.length);
