@@ -2,6 +2,6 @@
 
 Intermediate Front End Development Projects - Build a Random Quote Machine 💬
 
-Built using HTML, CSS, jQuery and the Bootstrap framework.
+Built using HTML, CSS and JavaScript.
 
-* Still have a few 🐞s to work out so this project is ongoing.
+* Previously had a few 🐞s but all has been fixed 💯
