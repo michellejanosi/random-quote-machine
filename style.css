@@ -86,7 +86,7 @@ hr {
   font-style: italic;
   color: #fff;
   letter-spacing: 0.05rem;
-  width: calc(100% + 0.05rem);
+  width: calc(100% + 0.07rem);
   font-size: 1.45em;
   line-height: 1.5;
 }
@@ -101,10 +101,11 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
 }
 
 button:focus { outline:0; }
 
-.qbtn { margin-right: 20px; }
+#quotebtn { margin-right: 20px; }
 
-.tbtn { margin-left: 20px; }
+#tweetbtn { margin-left: 20px; }
