@@ -9,7 +9,7 @@
     <!-- Favicon -->
     <link rel="icon" href="img/favicon-quote-left.ico" type="image/x-icon" />
   </head>
-  <body onload="newQuote()">
+  <body onload="getQuote()">
     <div id="container">
       <div id="main">
         <div class="inner">
@@ -17,10 +17,14 @@
           <p>Quotes to get you motivated on that dreaded day of the week.</p>
           <hr>
           <div id="quoteDisplay">
-            <!-- quote will display here -->
+            <!-- display quote here -->
+            <div id="quote"></div>
+            <div id="author"></div>
           </div>
-          <button class="qbtn" onclick="newQuote()"><i class="fa fa-refresh"></i> New Quote</button>
-          <button class="tbtn" onclick="tweetQuote()"><i class="fa fa-twitter"></i> Share Quote</button>
+
+          <!-- buttons for new quote and share quote -->
+          <button id="quotebtn"><i class="fa fa-refresh"></i> New Quote</button>
+          <button id="tweetbtn"><i class="fa fa-twitter"></i> Share Quote</button>
         </div> <!-- end inner -->
       </div> <!-- end main -->
     </div> <!-- end container -->
