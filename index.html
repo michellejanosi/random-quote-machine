@@ -2,31 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Random Quote Machine</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>Quotes #MotivationMonday</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <!-- Favicon -->
     <link rel="icon" href="img/favicon-quote-left.ico" type="image/x-icon" />
   </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="quote-box">
-            <i class="fa fa-quote-left fa-5x" aria-hidden="true"></i>
-            <p id="quote">"Hello, Friend."</p>
-            <p id="author">-Elliot Alderson</p>
-            <button class="btn btn-quote"><i class="fa fa-refresh" aria-hidden="true"></i> New Quote</button>
-            <button class="btn btn-tweet"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet Quote</button>
+  <body onload="newQuote()">
+    <div id="container">
+      <div id="main">
+        <div class="inner">
+          <h1>#MotivationMonday <i class="em em-100"></i></h1>
+          <p>Quotes to get you motivated on that dreaded day of the week.</p>
+          <hr>
+          <div id="quoteDisplay">
+            <!-- quote will display here -->
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- JS/jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+          <button class="qbtn" onclick="newQuote()"><i class="fa fa-refresh"></i> New Quote</button>
+          <button class="tbtn" onclick="tweetQuote()"><i class="fa fa-twitter"></i> Share Quote</button>
+        </div> <!-- end inner -->
+      </div> <!-- end main -->
+    </div> <!-- end container -->
+
+    <script src="script.js"></script>
   </body>
 </html>

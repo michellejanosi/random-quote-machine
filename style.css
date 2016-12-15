@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,400');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, rgba(27,33,51,0.749), rgba(27,33,51,0.749)), url(img/its-monday.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  z-index: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+#main {
+  align-self: flex-end;
+  position: relative;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.inner {
+  overflow-x: hidden;
+  width: 45rem;
+  max-width: 100%;
+  padding: 3.90625rem 3.125rem;
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  margin-top: 0 !important;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  width: calc(100% + 0.65rem);
+  font-size: 3em;
+  line-height: 1.175;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.05rem;
+  width: calc(100% + 0.05rem);
+  font-size: 1.25em;
+  line-height: 1.675;
+  font-weight: 100;
+}
+
+hr {
+  width: 15%;
+  height: 1px;
+  line-height: 1rem;
+  position: relative;
+  padding: 0;
+  border: 0;
+  background-color: rgba(255,255,255,0.231);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#quoteDisplay {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: 0.05rem;
+  width: calc(100% + 0.05rem);
+  font-size: 1.45em;
+  line-height: 1.5;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:focus { outline:0; }
+
+.qbtn { margin-right: 20px; }
+
+.tbtn { margin-left: 20px; }
