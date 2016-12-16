@@ -110,6 +110,14 @@ var quotes = [
   {
     quote: "What the mind of man can conceive and believe, it can achieve.",
     author: "-Napoleon Hill"
+  },
+  {
+    quote: "It always seems impossible until its done.",
+    author: "-Nelson Mandela"
+  },
+  {
+    quote: "The only person you are destined to become is the person you decide to be.",
+    author: "—Ralph Waldo Emerson"
   }
 ];
 var displayQuote;
@@ -122,8 +130,8 @@ function getQuote() {
   } while (currentQuote === randNum);
 
   displayQuote = quotes[randNum];
-
   currentQuote = randNum;
+
   document.getElementById('quote').innerHTML = '&quot;' + quotes[randNum].quote + '&quot';
   document.getElementById('author').innerHTML = quotes[randNum].author;
 }
@@ -137,10 +145,7 @@ document.addEventListener("DOMContentLoaded", function(){
   document.getElementById('quotebtn').addEventListener('click', function() {
     getQuote();
   });
-})
-
-document.addEventListener("DOMContentLoaded", function(){
   document.getElementById('tweetbtn').addEventListener('click', function() {
     tweetQuote();
   });
-})
+});
