@@ -87,8 +87,24 @@ hr {
   color: #fff;
   letter-spacing: 0.05rem;
   width: calc(100% + 0.07rem);
+  height: 115px;
   font-size: 1.45em;
   line-height: 1.5;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+  -webkit-animation: fadeIn 1s ease 1;
+  -moz-animation: fadeIn 1s ease 1;
+  animation: fadeIn 1s ease 1;
+}
+.fadeOut {
+  -webkit-animation: fadeIn 1s ease 1;
+  -moz-animation: fadeIn 1s ease 1;
+  animation: fadeIn 1s ease 1;
 }
 
 button {
@@ -104,6 +120,8 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+
+button:hover {background-color: #3e8e41}
 
 button:focus { outline:0; }
 
