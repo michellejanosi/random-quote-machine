@@ -42,6 +42,74 @@ var quotes = [
   {
     quote: "If I quit now, I will soon be back to where I started. And when I started I was desperately wishing to be where I am now.",
     author: "—Unknown"
+  },
+  {
+    quote: "Choose a job you love and you will never have to work a day in your life",
+    author: "– Confucius"
+  },
+  {
+    quote: "Believe you can and you're halfway there.",
+    author: "—Theodore Roosevelt"
+  },
+  {
+    quote: "Forget all the reasons it won’t work and believe the one reason that it will.",
+    author: "–Unknown"
+  },
+  {
+    quote: "What would you do if you weren't afraid?",
+    author: "-Sheryl Sandberg"
+  },
+  {
+    quote: "Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.",
+    author: "-Dr. Seuss"
+  },
+  {
+    quote: "The best way to predict the future is to create it.",
+    author: "-Peter Drucker"
+  },
+  {
+    quote: "Opportunities are usually disguised as hard work, so most people don’t recognize them.",
+    author: "—Ann Landers"
+  },
+  {
+    quote: "Always remember you are braver than you believe, stronger than you seem, and smarter than you think",
+    author: "—A. A. Milne"
+  },
+  {
+    quote: "The people who are crazy enough to think they can change the world are the ones who do.",
+    author: "-Rob Siltanen"
+  },
+  {
+    quote: "Fake it until you make it! Act as if you had all the confidence you require until it becomes your reality.",
+    author: "-Brian Tracy"
+  },
+  {
+    quote: "Tough times never last, but tough people do.",
+    author: "-Dr. Robert Schuller"
+  },
+  {
+    quote: "Everything you’ve ever wanted is on the other side of fear.",
+    author: "-George Addair"
+  },
+  {
+    quote: "It is never too late to be what you might have been.",
+    author: "-George Eliot"
+  },
+  {
+    quote: "Your imagination is your preview of life’s coming attractions.",
+    author: "-Albert Einstein"
+  },
+  {
+    quote: "Change your thoughts and you change your world.",
+    author: "-Norman Vincent Peale"
+  },
+  {
+    quote: "Don’t wish it were easier, wish you were better.",
+    author: "-Jim Rohn"
+  },
+  {
+    quote: "What the mind of man can conceive and believe, it can achieve.",
+    author: "-Napoleon Hill"
   }
 ];
 var displayQuote;
