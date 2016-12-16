@@ -120,11 +120,12 @@ var quotes = [
     author: "—Ralph Waldo Emerson"
   }
 ];
+
 var displayQuote;
 var currentQuote;
 
 function getQuote() {
-  // loops through every quote before repeating it
+// loops through every quote before repeating it
   do {
     var randNum = Math.floor(Math.random() * quotes.length);
   } while (currentQuote === randNum);
@@ -134,6 +135,8 @@ function getQuote() {
 
   document.getElementById('quote').innerHTML = '&quot;' + quotes[randNum].quote + '&quot';
   document.getElementById('author').innerHTML = quotes[randNum].author;
+  document.getElementById('quote').classList.toggle('fadeIn');
+  document.getElementById('author').classList.toggle('fadeIn');
 }
 
 function tweetQuote() {
@@ -141,11 +144,5 @@ function tweetQuote() {
   window.open("https://twitter.com/intent/tweet?text=" + sharedQuote + ' %23MotivationMonday ' + 'via %40MichelleJanosi ',  "Twitter window", "width=600, height=600");
 }
 
-document.addEventListener("DOMContentLoaded", function(){
-  document.getElementById('quotebtn').addEventListener('click', function() {
-    getQuote();
-  });
-  document.getElementById('tweetbtn').addEventListener('click', function() {
-    tweetQuote();
-  });
-});
+document.getElementById('quotebtn').addEventListener('click', getQuote);
+document.getElementById('tweetbtn').addEventListener('click', tweetQuote);
