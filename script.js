@@ -129,7 +129,7 @@ function getQuote() {
 }
 
 function tweetQuote() {
-  var sharedQuote = quotes[currentQuote].quote + " " + quotes[currentQuote].author;
+  var sharedQuote = '"' + quotes[currentQuote].quote + '"' + " " + quotes[currentQuote].author;
   window.open("https://twitter.com/intent/tweet?text=" + sharedQuote + ' %23MotivationMonday ' + 'via %40MichelleJanosi ',  "Twitter window", "width=600, height=600");
 }
 
