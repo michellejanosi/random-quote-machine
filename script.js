@@ -118,16 +118,82 @@ var quotes = [
   {
     quote: "The only person you are destined to become is the person you decide to be.",
     author: "—Ralph Waldo Emerson"
+  },
+  {
+    quotes: "Take the first step in faith. You don't have to see the whole staircase, just take the first step.",
+    author: "-Martin Luther King, Jr."
+  },
+  {
+    quote: "A year from now you may wish you had started today.",
+    author: "-Karen Lamb"
+  },
+  {
+    quote: "Great opportunities are not seen with your eyes. They are seen with your mind.",
+    author: "-Robert T. Kiyosaki"
+  },
+  {
+    quote: "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
+    author: "-Thomas Edison"
+  },
+  {
+    quote: "A winner is just a loser who tried one more time.",
+    author: "-George M. Moore Jr."
+  },
+  {
+    quote: "It's time to start living the life you've imagined.",
+    author: "-Henry James"
+  },
+  {
+    quote: "You must find a place in yourself where nothing is impossible.",
+    author: "-Deepak Chopra"
+  },
+  {
+    quote: "It's never too late- never too late to start over, never too late to be happy.",
+    author: "-Jane Fonda"
+  },
+  {
+    quote: "By thought, the thing you want is brought to you; by action, you receive it.",
+    author: "-Wallace D. Wattles"
+  },
+  {
+    quote: "Everything you want is just outside your comfort zone.",
+    author: "-Robert Allen"
+  },
+  {
+    quote: "Create a vision of who you want to be, and then live into that picture as if it were already true.",
+    author: "-Arnold Schwarzenegger"
+  },
+  {
+    quote: "Believe and act as if it were impossible to fail.",
+    author: "-Charles F. Kettering"
+  },
+  {
+    quote: "To fly as fast as thought, to be anywhere there is, you must first begin by knowing that you have already arrived.",
+    author: "-Richard Bach"
+  },
+  {
+    quote: "None of us can change our yesterdays, but all of us can change our tomorrows.",
+    author: "-Colin Powell"
+  },
+  {
+    quote: "You are today where your thoughts have brought you; you will be tomorrow where your thoughts take you.",
+    author: "-James Allen"
+  },
+  {
+    quote: "Nothing changes until you do.",
+    author: "-Unknown"
   }
 ];
 
 var displayQuote;
 var currentQuote;
+var randNum;
 
 function getQuote() {
-// loops through every quote before repeating it
+  
+  // loops through every quote before repeating it
   do {
-    var randNum = Math.floor(Math.random() * quotes.length);
+    randNum = Math.floor(Math.random() * quotes.length);
   } while (currentQuote === randNum);
 
   displayQuote = quotes[randNum];
@@ -135,8 +201,6 @@ function getQuote() {
 
   document.getElementById('quote').innerHTML = '&quot;' + quotes[randNum].quote + '&quot';
   document.getElementById('author').innerHTML = quotes[randNum].author;
-  document.getElementById('quote').classList.toggle('fadeIn');
-  document.getElementById('author').classList.toggle('fadeIn');
 }
 
 function tweetQuote() {
