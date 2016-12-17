@@ -92,7 +92,7 @@ hr {
   line-height: 1.5;
 }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+/*@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 
@@ -100,12 +100,7 @@ hr {
   -webkit-animation: fadeIn 1s ease 1;
   -moz-animation: fadeIn 1s ease 1;
   animation: fadeIn 1s ease 1;
-}
-.fadeOut {
-  -webkit-animation: fadeIn 1s ease 1;
-  -moz-animation: fadeIn 1s ease 1;
-  animation: fadeIn 1s ease 1;
-}
+}*/
 
 button {
   margin-top: 1.25rem;
