@@ -9,7 +9,7 @@ var quotes = [
   },
   {
     quote: "If you are still looking for that one person who will change your life, take a look in the mirror.",
-    author: "—Roman Price"
+    author: "Roman Price"
   },
   {
     quote: "Choice is the only tool we have that enables us to go from who we are today to who we want to be tomorrow.",
@@ -53,7 +53,7 @@ var quotes = [
   },
   {
     quote: "Forget all the reasons it won’t work and believe the one reason that it will.",
-    author: "–Unknown"
+    author: "—Unknown"
   },
   {
     quote: "What would you do if you weren't afraid?",
