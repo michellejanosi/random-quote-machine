@@ -120,7 +120,7 @@ var quotes = [
     author: "—Ralph Waldo Emerson"
   },
   {
-    quotes: "Take the first step in faith. You don't have to see the whole staircase, just take the first step.",
+    quote: "Take the first step in faith. You don't have to see the whole staircase, just take the first step.",
     author: "-Martin Luther King, Jr."
   },
   {
@@ -190,7 +190,7 @@ var currentQuote;
 var randNum;
 
 function getQuote() {
-  
+
   // loops through every quote before repeating it
   do {
     randNum = Math.floor(Math.random() * quotes.length);
