@@ -185,26 +185,17 @@ var quotes = [
   }
 ];
 
-var displayQuote;
-var currentQuote;
 var randNum;
 
 function getQuote() {
-
-  // loops through every quote before repeating it
-  do {
-    randNum = Math.floor(Math.random() * quotes.length);
-  } while (currentQuote === randNum);
-
-  displayQuote = quotes[randNum];
-  currentQuote = randNum;
-
+  randNum = Math.floor(Math.random() * quotes.length);
+  
   document.getElementById('quote').innerHTML = '&quot;' + quotes[randNum].quote + '&quot';
   document.getElementById('author').innerHTML = quotes[randNum].author;
 }
 
 function tweetQuote() {
-  var sharedQuote = '"' + quotes[currentQuote].quote + '"' + " " + quotes[currentQuote].author;
+  var sharedQuote = '"' + quotes[randNum].quote + '"' + " " + quotes[randNum].author;
   window.open("https://twitter.com/intent/tweet?text=" + sharedQuote + ' %23MotivationMonday' + '💯 '+ ' via %40MichelleJanosi ',  "Twitter window", "width=600, height=600");
 }
 
