@@ -185,7 +185,9 @@ var quotes = [
   }
 ];
 
-window.onload() = getQuote();
+window.onload = function() {
+  getQuote();
+};
 
 var randNum;
 
