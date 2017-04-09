@@ -1,4 +1,4 @@
-# Motivaiton Monday💯
+# Motivation Monday💯
 
 Intermediate Front End Development Projects - Build a Random Quote Machine 💬
 
